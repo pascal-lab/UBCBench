@@ -1,0 +1,119 @@
+- id: CallbacksInFragment
+  apk: CallbacksInFragment.apk
+  expected: 2
+
+- id: CallbacksIntentHandling
+  apk: CallbacksIntentHandling.apk
+  expected: 0
+
+- id: ConservativeModel1
+  apk: ConservativeModel1.apk
+  expected: 0
+
+- id: ConservativeModel2
+  apk: ConservativeModel2.apk
+  expected: 1
+
+- id: ConservativeModel3
+  apk: ConservativeModel3.apk
+  expected: 0
+
+- id: GetClass
+  apk: GetClass.apk
+  expected: 1
+
+- id: GetConstructor
+  apk: GetConstructor.apk
+  expected: 1
+
+- id: HardCodedLocationTest
+  apk: HardCodedLocationTest.apk
+  expected: 0
+
+- id: ReflectionOverloaded
+  apk: ReflctionOverloaded.apk
+  expected: 1
+
+- id: ReflectionAndroid
+  apk: ReflectionAndroid.apk
+  expected: 0
+
+- id: ReflectionDynamic
+  apk: ReflectionDynamic.apk
+  expected: 1
+
+- id: ReflectionRes
+  apk: ReflectionRes.apk
+  expected: 1
+
+- id: ReflectiveSource
+  apk: ReflectiveSource.apk
+  expected: 1
+
+- id: ReturnConstructor
+  apk: ReturnConstructor.apk
+  expected: 1
+
+- id: SetContentView
+  apk: SetContentView.apk
+  expected: 1
+
+- id: ViewCasting
+  apk: ViewCasting.apk
+  expected: 1
+
+- id: ContextSensitivity
+  apk: Sensitivity/ContextSensitivity.apk
+  expected: 2
+
+- id: FieldSensitivity
+  apk: Sensitivity/FieldSensitivity.apk
+  expected: 1
+
+- id: FlowSensitivity
+  apk: Sensitivity/FlowSensitivity.apk
+  expected: 1
+
+- id: ObjectSensitivity
+  apk: Sensitivity/ObjectSensitivity.apk
+  expected: 1
+
+- id: PathSensitivity
+  apk: Sensitivity/PathSensitivity.apk
+  expected: 0
+
+- id: CastingForward
+  apk: Untangling/CastingForward.apk
+  expected: 1
+
+- id: EventOrderingTest
+  apk: Untangling/EventOrderingTest.apk
+  expected: 1
+
+- id: ForName
+  apk: Untangling/ForName.apk
+  expected: 1
+
+- id: LocationFieldSensitivity
+  apk: Untangling/LocationFieldSensitivity.apk
+  expected: 0
+
+- id: SendTextMessage
+  apk: Untangling/SendTextMessage.apk
+  expected: 1
+
+- id: SetGetHint
+  apk: Untangling/SetGetHint.apk
+  expected: 1
+
+- id: SharedPreference1
+  apk: Untangling/SharedPreference1.apk
+  expected: 1
+
+- id: SharedPreference2
+  apk: Untangling/SharedPreference2.apk
+  expected: 1
+
+- id: SharedPreference3
+  apk: Untangling/SharedPreference3.apk
+  expected: 1
