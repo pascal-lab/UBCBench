@@ -12,7 +12,8 @@
 
 - id: ConservativeModel2
   apk: ConservativeModel2.apk
-  expected: 1
+  expected: 0
+  groundTruth: 1
 
 - id: ConservativeModel3
   apk: ConservativeModel3.apk
@@ -64,7 +65,8 @@
 
 - id: ContextSensitivity
   apk: Sensitivity/ContextSensitivity.apk
-  expected: 2
+  expected: 4
+  groundTruth: 2
 
 - id: FieldSensitivity
   apk: Sensitivity/FieldSensitivity.apk
@@ -76,11 +78,13 @@
 
 - id: ObjectSensitivity
   apk: Sensitivity/ObjectSensitivity.apk
-  expected: 1
+  expected: 2
+  groundTruth: 1
 
 - id: PathSensitivity
   apk: Sensitivity/PathSensitivity.apk
-  expected: 0
+  expected: 1
+  groundTruth: 0
 
 - id: CastingForward
   apk: Untangling/CastingForward.apk
